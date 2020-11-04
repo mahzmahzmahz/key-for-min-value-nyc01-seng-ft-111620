@@ -8,7 +8,7 @@ minimum_key = nil
   name_hash.each do |k, v|
     if minimum_value == nil
       minimum_value = v
-      minimum_key == k 
+      minimum_key = k 
     else
       minimum_value > v
       minimum_value = v
